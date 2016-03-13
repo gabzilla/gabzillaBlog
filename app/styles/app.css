@@ -1,24 +1,40 @@
-.blog-title {
+.blog-header {
+  color: mediumorchid;
+}
+
+.blog-post-title {
   color: darkorchid;
 }
 
-.blog-post {
-  color: lightseagreen;
-}
-
 .blog-post-meta {
-  color: teal;
+  color: mediumorchid;
 }
 
 .about {
   color: mediumorchid;
+
 }
 
-.sidebar-module {
-  color: orchid;
+.elsewhere {
+  color: mediumorchid;
 }
-
 .list-unstyled {
-  color: darkorchid;
+  color: inherit;
 }
 
+
+/* header photo */
+
+img.me {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: right;
+}
+img {
+  border: 0;
+}
