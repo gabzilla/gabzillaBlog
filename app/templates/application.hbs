@@ -2,15 +2,13 @@
   <div class="container">
     <div class="blog-header">
       <h1 class="blog-title">Hello World!</h1>
+      <img class="me" src="Projects/gabzillaBlog/photo/photo1.jpg">
       <p class="lead blog-description">This is a blog to chronicle my journey of learning how to program! </p>
     </div>
   </div>
 </div>
 
 <div class="container">
-
-
-
   <div class="row">
 
     <div class="col-sm-8 blog-main">
@@ -28,18 +26,18 @@
         and create a "Hello World". I scanned their documentation and immediately ran into another unfamiliar term. To start building an extension you have to create a <em>manifest.json</em> file. JSON stands for Javascript Object Notation and is essentially a simple syntax for structuring data which is used to transmit data between a server and a web application <a href="http://www.json.org/">(json.org)</a> . It basically just tells Chrome about the application and how to run it.
         </p>
 
-        <h2>Step 1: Start with a manifest.json file</h2>
+        <h4>Step 1: Start with a manifest.json file</h4>
         <p>The setup for these extensions are pretty straight forward the complicated part for me will be setting up and understanding the Javascript involved. For this week however I decided to only concern myself with getting a functioning "Hello World" up and going.Now that I had puzzled my way through what a manifest.json file entails I snagged the sample code provided and made sure to note that the "manifest version" MUST be version 2.</p>
-        <h2>Step 2: Create a background script</h2>
+        <h4>Step 2: Create a background script</h4>
         <p>The next step was to create a small script for the extension. For this tutorial the script provided will open a window thats set to a specific width and height. However this background script can be used for a variety of things such as "...additional listeners, windows, post messages, and launch data, all of which are used by the event page to manage the app". So hopefully in this background script later on I'll be able to create something to launch my URL. </p>
 
         <!-- code block example<pre><code>Example code block</code></pre> -->
 
-        <h2>Step 3: Add some HTML!</h2>
+        <h4>Step 3: Add some HTML!</h4>
         <p>This was the easy part just create and save a little <em>window.html</em> file to show my hello world.</p>
-        <h2>Step 4: Add some icons.</h2>
+        <h4>Step 4: Add some icons.</h4>
         <p>Sounds easy right? This caused me a small little pain point - at first the icon was not showing up because I failed to save it under the proper folder. Silly little mistake but a frustrating one and being a beginner still I've made this mistake a few times its actually the first thing I check now! </p>
-        <h2>Step 5: Time to launch!</h2>
+        <h4>Step 5: Time to launch!</h4>
         <p>The moment of truth! Once everything was created I headed over to chrome://extensions made sure I had <em>Developer Mode</em> checked off, clicked the Load unpacked extension button, and made sure my folders path was correct. I opened a new tab and to my surprise there it was!</p>
 
       </div><!-- /.blog-post -->
@@ -56,56 +54,7 @@
         <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
       </div><!-- /.blog-post -->
 
-      <div class="blog-post">
-        <h2 class="blog-post-title">Fibonacci two ways</h2>
-        <p class="blog-post-meta">December 14, 2013 by</p>
-        <h4>In Java</h4>
-        <pre><code>int num = 0;
-          int num2 = 1;
-          int loop;
-          int fibonacci;
 
-          System.out.print(num2);
-
-          for (loop = 1; loop <= 11; loop ++)
-
-          {
-          fibonacci = num + num2;
-          num = num2;
-          num2 = fibonacci;
-
-          System.out.print(" " + fibonacci);
-
-          }
-        </code></pre>
-        <hr>
-        <h4>In JavaScript</h4>
-        <pre><code>
-          var fib = [0, 1];
-          for(var i=fib.length; i<=12; i++) {
-          fib[i] = fib[i-2] + fib[i-1];
-          }
-          console.log(fib);
-        </code></pre>
-
-        <h4>A diagram</h4>
-        <pre><code>
-
-          nthFibonacci(4)    .--------> 2 + 1 = 3
-          |            /               |
-          '-> nthFibonacci(3) + nthFibonacci(2)
-          |    ^
-          |    '----------- 2 = 1 + 1 <-------------.
-          1st step -> |                     ^                    |
-          |                              |                    |
-          '->  nthFibonacci(2) -' + nthFibonacci(1)-'
-
-        </code></pre>
-
-      </div>
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">Thought Process</h2>
         <p class="blog-post-meta">December 14, 2013</p>
 
         <p>This week I was assinged a "simple" project. Create an extension that would bring up a web-view into fullscreen when launched. Forturnatly I was given an example on Github to get started with so that I didn't have to create the entire thing from scratch. Next week I'll tackle understanding the Javascript required to create the extension but for now I had to find a way to make this thing go fullscreen automatically.
@@ -127,7 +76,7 @@
         <p>I orginally thought I was being clever this week coming up with this title but then my dreams were crushed while listening to the Ruby Rogues podcast where one of the panelist spoke about a conference talk she gave called the same thing. Regardless this week I had the opportunity to learn about GitHub flow and almost immeaditly also see how and why its so useful. </p>
         <p>First of all there is a difference between Git and GitHub which I was aware of but had never looked into it. Git is a type of VCS or version control system. What makes Git unique is how they store information. A lot of VCS's store information as a list of file changes while Git looks as data as snapshots. Kind of like a collection of poleroid pictures everytime there is a change ("commit") to your project. It then links these snapshots together kind of like a photogallery of gradual changes.</p>
         <p>Here's a little <a href="https://try.github.io/levels/1/challenges/1">tutorial</a> that goes over the basics.</p>
-        <p>Now GitHub is a <em>Git Repository Hositng Service</em> but it also adds a lot of it's own features such as access control, wikis, basic managment tools, and (best of all) <h5>octocats</h5>! The major appeal with GitHub has to do with "forking" this means you can copy a project from someone and modify it under your own account. Here's the cool part: if you make some awesome changes that you want to share with the creator you can send a "pull-request". The creator can than with a click of a button merge your idea (or "repo") with the orginal repo.
+        <p>Now GitHub is a <em>Git Repository Hositng Service</em> but it also adds a lot of it's own features such as access control, wikis, basic managment tools, and (best of all) <strong>octocats</strong>!! The major appeal with GitHub has to do with "forking" this means you can copy a project from someone and modify it under your own account. Here's the cool part: if you make some awesome changes that you want to share with the creator you can send a "pull-request". The creator can than with a click of a button merge your idea (or "repo") with the orginal repo.
         </p>
         <p>This process is called Github flow which is a "branch-based workflow" that helps when teams or projects deploy changes regularly. One of the developers attempted to draw out the process and it ended up looking like a bunch of squiggly lines going nowhere so here's a graph to help clarify. </p>
 
@@ -145,17 +94,17 @@
         </p>
         <!-- /.blog-post -->
 
-
+</div>
     </div><!-- /.blog-main -->
 
     <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
       <div class="sidebar-module sidebar-module-inset">
-        <h4 class="about">About Me</h4>
-        <p>This is an about me</p>
+        <h3 class="about">About Me</h3>
+        <p>codeNewbie, unicornWrangler, and tranceAddict</p>
       </div>
 
       <div class="sidebar-module">
-        <h4>Elsewhere</h4>
+        <h4 class="elsewhere">Elsewhere</h4>
         <ol class="list-unstyled">
           <li><a href="http://github.com/gabzilla">GitHub</a></li>
           <li><a href="http://twitter                         .com/gabzillah">Twitter</a></li>
