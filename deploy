@@ -1,0 +1,2 @@
+ember build dist
+aws s3 --region us-west-2 sync dist s3://www.gabzillah.com --acl public-read --delete
