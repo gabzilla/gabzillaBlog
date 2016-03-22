@@ -10,93 +10,9 @@
 
 <div class="container">
   <div class="row">
-
-    <div class="col-sm-8 blog-main">
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">My first Google Chrome Extension</h2>
-        <p class="blog-post-meta">January 1, 2014</p>
-
-        <p>Week one of my internship is complete and was the complete opposite of what I had expected. Due to some unexpected circumstances the developers didn't have a moment to spare so I spent my time there figuring out how to utilize google to research on how I could possibly create a chrome extension that would grab a specific URL and display it to fullscreen automatically.</p>
-
-        <blockquote>So what is a google chrome                 extension?</blockquote>
-
-        <p>It is essentially a small software program that is used to increase functionality in the chrome browser. It mostly uses HTML, CSS, and Javascript and has very minimal user interface. To start out I decided to reference
-        <a href="http://www.developer.chrome                    .com/extensions">this</a>
-        and create a "Hello World". I scanned their documentation and immediately ran into another unfamiliar term. To start building an extension you have to create a <em>manifest.json</em> file. JSON stands for Javascript Object Notation and is essentially a simple syntax for structuring data which is used to transmit data between a server and a web application <a href="http://www.json.org/">(json.org)</a> . It basically just tells Chrome about the application and how to run it.
-        </p>
-
-        <h4>Step 1: Start with a manifest.json file</h4>
-        <p>The setup for these extensions are pretty straight forward the complicated part for me will be setting up and understanding the Javascript involved. For this week however I decided to only concern myself with getting a functioning "Hello World" up and going.Now that I had puzzled my way through what a manifest.json file entails I snagged the sample code provided and made sure to note that the "manifest version" MUST be version 2.</p>
-        <h4>Step 2: Create a background script</h4>
-        <p>The next step was to create a small script for the extension. For this tutorial the script provided will open a window thats set to a specific width and height. However this background script can be used for a variety of things such as "...additional listeners, windows, post messages, and launch data, all of which are used by the event page to manage the app". So hopefully in this background script later on I'll be able to create something to launch my URL. </p>
-
-        <!-- code block example<pre><code>Example code block</code></pre> -->
-
-        <h4>Step 3: Add some HTML!</h4>
-        <p>This was the easy part just create and save a little <em>window.html</em> file to show my hello world.</p>
-        <h4>Step 4: Add some icons.</h4>
-        <p>Sounds easy right? This caused me a small little pain point - at first the icon was not showing up because I failed to save it under the proper folder. Silly little mistake but a frustrating one and being a beginner still I've made this mistake a few times its actually the first thing I check now! </p>
-        <h4>Step 5: Time to launch!</h4>
-        <p>The moment of truth! Once everything was created I headed over to chrome://extensions made sure I had <em>Developer Mode</em> checked off, clicked the Load unpacked extension button, and made sure my folders path was correct. I opened a new tab and to my surprise there it was!</p>
-
-      </div><!-- /.blog-post -->
-
-      <div class="blog-post">
-        <h2 class="blog-post-title">Another blog post</h2>
-        <p class="blog-post-meta">December 23, 2013</p>
-
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote>
-          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </blockquote>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      </div><!-- /.blog-post -->
-
-
-        <p class="blog-post-meta">December 14, 2013</p>
-
-        <p>This week I was assinged a "simple" project. Create an extension that would bring up a web-view into fullscreen when launched. Forturnatly I was given an example on Github to get started with so that I didn't have to create the entire thing from scratch. Next week I'll tackle understanding the Javascript required to create the extension but for now I had to find a way to make this thing go fullscreen automatically.
-        </p>
-
-        <br>
-
-        <p> First I referenced <a href="https://developer.chrome.com/extensions/api_index">developer chrome API</a> to see if there was a specific API that I could use. After a quick "⌘F" to look for through the document for keywords and a few minutes puzzling through their documentation it became apparent that I wasn't going to find it easily.</p>
-        <p> Next I decided to reference <a href="https://github.com/GoogleChrome/chrome-app-samples">Chrome app samples</a> which are the official samples for the Chrome Apps Platform. Since my webview sample had been located in this repository I hoped to find some type of sample that I could implement in my own code. Again this was fruitless and it was time to utilize some other sources.
-        </p>
-        <p> Besides just googling for keyterms there are a few websites in particular I like to lookup through the google search bar. <em>Mozilla Developer Network</em> is a great one that provides tons of information about open web technologies and is useful for understanding concepts. In addition StackOverflow tends to be great when stuck on a pain point about trying to find the solution to a particular chunk of code. Looking through both using variations of: Chrome Extension Fullscreen, Chrome API FullScreen, ChromeBit browswer Fullscreen.. ect I again didn't find much on any of it.</p>
-        <p>As it turns out Chrome makes it difficult to launch into full screen for security issues. People would create apps that would automatically go to fullscreen and mimic important security sensitive sites. From what I gathered,it is possible to use a hotkey or an onClick event to trigger fullscreen but for Chrome extensions they have removed of making it an automatic event.
-        </p>
-        <p>After a full day of searching, reading and attempting to implement differnt ideas I hadn't quite found the solution I was searching for but I did learn the value of how helpful a google search can be. As an added bonus the developers spent the last half of my time there on Thursday to attempt to figure out a solution to my problem. They didn't get much farther than I did but it was awesome to see them googling and reference the same materials I had been looking through all week. </p>
-
-        <div class="blog-post">
-          <h2 class="blog-post-title">Git happens...</h2>
-          <p class="blog-post-meta">December 14, 2013</p>
-        <p>I orginally thought I was being clever this week coming up with this title but then my dreams were crushed while listening to the Ruby Rogues podcast where one of the panelist spoke about a conference talk she gave called the same thing. Regardless this week I had the opportunity to learn about GitHub flow and almost immeaditly also see how and why its so useful. </p>
-        <p>First of all there is a difference between Git and GitHub which I was aware of but had never looked into it. Git is a type of VCS or version control system. What makes Git unique is how they store information. A lot of VCS's store information as a list of file changes while Git looks as data as snapshots. Kind of like a collection of poleroid pictures everytime there is a change ("commit") to your project. It then links these snapshots together kind of like a photogallery of gradual changes.</p>
-        <p>Here's a little <a href="https://try.github.io/levels/1/challenges/1">tutorial</a> that goes over the basics.</p>
-        <p>Now GitHub is a <em>Git Repository Hositng Service</em> but it also adds a lot of it's own features such as access control, wikis, basic managment tools, and (best of all) <strong>octocats</strong>!! The major appeal with GitHub has to do with "forking" this means you can copy a project from someone and modify it under your own account. Here's the cool part: if you make some awesome changes that you want to share with the creator you can send a "pull-request". The creator can than with a click of a button merge your idea (or "repo") with the orginal repo.
-        </p>
-        <p>This process is called Github flow which is a "branch-based workflow" that helps when teams or projects deploy changes regularly. One of the developers attempted to draw out the process and it ended up looking like a bunch of squiggly lines going nowhere so here's a graph to help clarify. </p>
-
-        <!-- picture goes here -->
-        <p>The first rule of Github Flow is: </p>
-        <blockquote>
-          "There's only one rule: anything in the master branch is always deployable"
-
-        </blockquote>
-        <p>This means it is extra important to create another branch to work off of for features or fixes. This one is typically called the developer branch.</p>
-        <p>Once you've created another branch you're free to try out new things without the worry of affected the master. Each change that happens you add a "commit" to create a traceable history of what has been changed and why. This helps out later on when trying to identiy and fix bugs. </p>
-        <p>If everything looks good the next step would be to open a "pull request". Anyone can see a pull request and it is a great way to recieve feedback about the work you've done. </p>
-        <p>Once the pull request has been reviewed and the branch passes any tests it can be "deployed" to the master which would merge it with that code base. </p>
-        <p>Its a little itimedating at first (at least for me it was) but a great way to get more aquainted with how it all works is to make a Github page! Its a page that can be used for a blog that's hosted directly from your GitHub repository. To get started I utilized <a href="https://pages.github.com/">This tutorial</a> and as a personal side project I am building this blog with <em>Ember.js</em>.
-        </p>
-        <!-- /.blog-post -->
-
-</div>
-    </div><!-- /.blog-main -->
-
+   <div class="col-sm-8 blog-main">
+    {{outlet}}
+   </div>
     <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
       <div class="sidebar-module sidebar-module-inset">
         <h3 class="about">About Me</h3>
@@ -107,7 +23,7 @@
         <h4 class="elsewhere">Elsewhere</h4>
         <ol class="list-unstyled">
           <li><a href="http://github.com/gabzilla">GitHub</a></li>
-          <li><a href="http://twitter                         .com/gabzillah">Twitter</a></li>
+          <li><a href="http://twitter.com/gabzillah">Twitter</a></li>
         </ol>
       </div>
     </div><!-- /.blog-sidebar -->
