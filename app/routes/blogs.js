@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
   var Blog = Ember.Object.extend({
     title: null,
     description: null,
@@ -9,22 +10,24 @@ import Ember from 'ember';
     // extending the var blog from an ember object values that change are null because when we export the model we will hardcode and return values normally these would be pulled from a db?
   });
 export default Ember.Route.extend({
-  model() {
-    return [
-      Blog.create({
-        title: "Getting Started with Ember-CLI",
-        description: "this is a blog post",
-        date: "March 30, 2016",
-        slug: "test"
-      }),
-      Blog.create({
-        title: "Blog TWO",
-        description: "this is another blog post",
-        date: "April 1, 2015",
-        slug: "test2"
-      })
-    ];
 
-  }
+    model() {
+      return [
+        Blog.create({
+          title: "My First Google Chrome Extension",
+          description: "Tutorial of Chrome Extension",
+          date: "23 February 2016",
+          slug: "post1"
+        }),
+        Blog.create({
+          title: "From tutorials to real life",
+          description: "Transition from tutorials to real life",
+          date: "25 February 2016",
+          slug: "post2"
+        })
+      ];
+
+    }
+
 
 });
