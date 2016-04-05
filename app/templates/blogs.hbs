@@ -1,14 +1,19 @@
-<ul>
-  {{#each model as |item|}}
-    <li>
+
+<div class="col-sm-4" id="blogs">
+  <ul>
+    {{#each model as |item|}}
+      <p class = "blog-titles">
         {{#link-to "blogs.blog" item.slug}}
-        {{item.title}} by {{item.author}}
+          {{item.title}}
+          <p class = "dateFormat">{{item.date}}</p>
         {{/link-to}}
         <!-- using helpers to link to blogs.blog and grabbing title and author -->
-    </li>
-  {{/each}}
-</ul>
-
-<div class="col-sm-8 blog-main">
+      </p>
+    {{/each}}
+  </ul>
+</div>
+<div class="col-sm-5 blog-main">
   {{outlet}}
 </div>
+
+
