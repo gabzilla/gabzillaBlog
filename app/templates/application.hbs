@@ -3,31 +3,25 @@
     <div class="blog-header"> 
       <h1 class="blog-title">Hello World!</h1>
       <!--<img class="me" src="Projects/gabzillaBlog/photo/photo1.jpg"> -->
-      <p class="lead blog-description">This is a blog to chronicle my journey of learning how to program! </p>
+      <p class="lead blog-description">This is a blog about my journey in learning how to program </p>
     </div>
   </div>
 </div>
 
 <div class="container">
+
   <div class="row">
-
    {{outlet}}
-   
-    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-      <div class="sidebar-module sidebar-module-inset">
-        <h3 class="about">About Me</h3>
-        <p>this is an about <me></me></p>
-      </div>
+  </div>
 
-      <div class="sidebar-module">
-        <h4 class="elsewhere">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="http://github.com/gabzilla">GitHub</a></li>
-          <li><a href="http://twitter.com/gabzillah">Twitter</a></li>
-        </ol>
-      </div>
-    </div><!-- /.blog-sidebar -->
+</div>
 
-  </div><!-- /.row -->
-
-</div><!-- /.container -->
+<div class="container">
+  <nav class="navbar navbar-default navbar-fixed-bottom"    id="bottom-nav">
+    <h4 class="elsewhere">Find me on:</h4>
+    <a href="http://github.com/gabzilla" target="_blank">
+    {{fa-icon "github" size=2}}
+    </a>
+    <a href="http://twitter.com/gabzillah" target="_blank">{{fa-icon "twitter" size=2}}</a>
+</nav>
+</div>
