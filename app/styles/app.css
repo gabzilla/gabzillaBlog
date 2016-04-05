@@ -1,13 +1,22 @@
+body { padding-bottom: 70px; }
+.jumbotron{
+  color: black;
+  font-style: italic;
+}
 .blog-header {
-  color: mediumorchid;
+  color: black;
+}
+
+.lead {
+  color: grey;
 }
 
 .blog-post-title {
-  color: darkorchid;
+  color: black;
 }
 
 .blog-post-meta {
-  color: mediumorchid;
+  color: #212121;
 }
 
 .about {
@@ -37,4 +46,33 @@ img {
 }
 img {
   border: 0;
+}
+
+a {
+  color: black;
+  font-weight: 700;
+}
+
+.dateFormat {
+  color: grey;
+  font-size: smaller;
+}
+.elsewhere {
+  padding-left: 10px;
+  color: black;
+  font-size: small;
+  font-style: italic;
+}
+a:hover, a:focus {
+  color: hotpink;
+  text-decoration: none;
+}
+
+.fa {
+  padding-left: 10px;
+}
+
+.graphOfWoe {
+  width: 100%;
+  height: auto;
 }
