@@ -14,16 +14,16 @@ export default Ember.Route.extend({
     model() {
       return [
         Blog.create({
-          title: "My First Google Chrome Extension",
-          description: "Tutorial of Chrome Extension",
-          date: "23 February 2016",
-          slug: "post1"
-        }),
-        Blog.create({
           title: "From tutorials to real life",
           description: "Transition from tutorials to real life",
           date: "25 February 2016",
           slug: "post2"
+        }),
+        Blog.create({
+          title: "My First Google Chrome Extension",
+          description: "Tutorial of Chrome Extension",
+          date: "23 February 2016",
+          slug: "post1"
         })
       ];
 
