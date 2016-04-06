@@ -14,6 +14,12 @@ export default Ember.Route.extend({
     model() {
       return [
         Blog.create({
+          title: "Fibonacci Two Ways",
+          description: "Solving fibonacci with java and javascript",
+          date: "26 February 2016",
+          slug: "post3"
+        }),
+        Blog.create({
           title: "From tutorials to real life",
           description: "Transition from tutorials to real life",
           date: "25 February 2016",
