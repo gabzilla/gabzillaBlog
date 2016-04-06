@@ -76,3 +76,11 @@ a:hover, a:focus {
   width: 100%;
   height: auto;
 }
+
+.header-picture {
+  height: auto;
+  float: right;
+  width: 250px;
+  padding: 10px 10px 20px 20px;
+  border-radius: 50%;
+}
