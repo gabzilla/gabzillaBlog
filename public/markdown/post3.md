@@ -6,7 +6,7 @@
 
 
 
- <h2> First here's the equation for 		  Fibonacci F(k): </h2>
+ <h2> Here's the equation for 		  Fibonacci F(k): </h2>
 
   <blockquote>k > 2 : F(k-1) + F(k-2)
   k <= 2 : 1 </blockquote>
@@ -19,7 +19,7 @@
   ___
 
 
-  <h3>So first in Java:</h3>
+  <h3>In Java:</h3>
 <sub><sup>note that this only a fragment </sup></sub>
 
   `int num = 0;`
