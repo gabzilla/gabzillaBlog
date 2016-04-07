@@ -16,7 +16,7 @@ export default Ember.Route.extend({
         Blog.create({
           title: "Google Design",
           description: "A brief overview of google design",
-          date: "10 March 2016",
+          date: "11 March 2016",
           slug: "post6"
         }),
         Blog.create({
