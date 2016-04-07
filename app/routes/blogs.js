@@ -14,6 +14,18 @@ export default Ember.Route.extend({
     model() {
       return [
         Blog.create({
+          title: "Google Design",
+          description: "A brief overview of google design",
+          date: "10 March 2016",
+          slug: "post6"
+        }),
+        Blog.create({
+          title: "Git Happens..",
+          description: "Learning about Git and Github",
+          date: "10 March 2016",
+          slug: "post5"
+        }),
+        Blog.create({
           title: "Project RoadBlock",
           description: "Hitting a snag with fullScreen and Chrome extensions",
           date: "01 March 2016",
