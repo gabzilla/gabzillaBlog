@@ -1,5 +1,5 @@
 <h1>Google Design</h1>
-<p>I was given a task this week to find placeholders for a project. Since <a href="http://placekitten.com">placekitten</a> doesn't have icons I took to the web to find something open source to use and suddenly remembered a something that has been tucked away in my <em>"coolstuff.md"</em> file for months. <a href="http://design.google.com/icons">Google Design</a>! The goals Google has prescribed for this site are to: </p>
+<p>I was given a task this week to find placeholders for a project. Since <a href="http://placekitten.com" target="_blank">placekitten</a> doesn't have icons I took to the web to find something open source to use and suddenly remembered a something that has been tucked away in my <em>"coolstuff.md"</em> file for months. <a href="http://design.google.com/icons" target="_blank">Google Design</a>! The goals Google has prescribed for this site are to: </p>
 
   <blockquote>"Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science"</blockquote>
 
@@ -15,7 +15,7 @@
 
   ```<i class="material-icons">reload</i>```
 
-  <p>Here's a picture of a few that are available but they can all be found <a href="https://design.google.com/icons/">here</a></p>
+  <p>Here's a picture of a few that are available but they can all be found <a href="https://design.google.com/icons/" target="_blank">here</a></p>
 <img class = "blogImage" src="images/googleDesignExamples.png" alt>
 
 <p>The awesome part is that since these are all fonts they can be manipulated with CSS! There are guidelines that google recommends but after a little time and some tinkering I was able to change up the colors to my every whim!</p>

@@ -3,7 +3,7 @@
 
  <h3> So what is a Google Chrome Extension? </h3>
  <P> It is essentially a small software program that is used to increase functionality in the chrome browser. It mostly uses HTML, CSS, and Javascript and has very minimal user interface. To start out I decided to reference http://www.developer.chrome.com/extensions and create a "Hello World".
-  I scanned their documentation and immediately ran into another unfamiliar term. To start building an extension you have to create a manifest.json file. JSON stands for Javascript Object Notation and is essentially a simple syntax for structuring data which is used to transmit data between a server and a web application (http://www.json.org/). It basically just tells Chrome about the application and how to run it. </p>
+  I scanned their documentation and immediately ran into another unfamiliar term. To start building an extension you have to create a manifest.json file. JSON stands for Javascript Object Notation and is essentially a simple syntax for structuring data which is used to transmit data between a server and a web application <a href="http://www.json.org/" target="_blank">(json.org)</a>. It basically just tells Chrome about the application and how to run it. </p>
 
   <h3> Step 1: Start with a manifest.json file </h3>
   <p> The setup for these extensions are pretty straight forward the complicated part for me will be setting up and understanding the Javascript involved. For this week however I decided to only concern myself with getting a functioning "Hello World" up and going. </p>

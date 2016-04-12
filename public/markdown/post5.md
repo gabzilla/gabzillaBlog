@@ -4,7 +4,7 @@
   <p>First of all there is a difference between Git and GitHub which I was aware of but had never looked into it. Git is a type of VCS or version control system. What makes Git unique is how they store information. A lot of VCS's store information as a list of file changes while Git looks as data as snapshots. Kind of like a collection of polaroid pictures every time there is a change ("commit") to your project. It then links these snapshots together kind of like a photo gallery of gradual changes.
 
 
-  Here's a little <a href="https://try.github.io/levels/1/challenges/1">tutorial</a> that goes over the basics
+  Here's a little <a href="https://try.github.io/levels/1/challenges/1" target="_blank">tutorial</a> that goes over the basics
 
 
 
@@ -32,8 +32,8 @@
 
   <p>Once the pull request has been reviewed and the branch passes any tests it can be "deployed" to the master which would merge it with that code base.</p>
 
-  <p>Its a little intimidating at first (at least for me it was) but a great way to get more acquainted with how it all works is to make a Github page! Its a page that can be used for a blog that's hosted directly from your GitHub repository. To get started I utilized [Github pages](https://pages.github.com)
-  and this [awesome guide](http://jmcglone.com/guides/github-pages/) by Johnathan Mccglone </p>
+  <p>Its a little intimidating at first (at least for me it was) but a great way to get more acquainted with how it all works is to make a Github page! Its a page that can be used for a blog that's hosted directly from your GitHub repository. To get started I utilized <a href="https://pages.github.com" target="_blank">Github Pages</a>
+  and this <a href="http://jmcglone.com/guides/github-pages/" target="_blank">awesome guide</a> by Johnathan Mccglone </p>
 
 
 
