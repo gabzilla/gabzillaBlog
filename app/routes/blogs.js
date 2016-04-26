@@ -14,7 +14,7 @@ export default Ember.Route.extend({
     model() {
       return [
         Blog.create({
-          title: "Getting Started with Ember-CLI pt 1",
+          title: "Getting Started with Ember-CLI",
           description: "Getting Started with Ember-CLI",
           date: "30 March 2016",
           slug: "post7"
