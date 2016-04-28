@@ -14,6 +14,12 @@ export default Ember.Route.extend({
     model() {
       return [
         Blog.create({
+          title: "Responsive Web Design (RWD)",
+          description: "A brief overview of responsive web design",
+          date: "26 April 2016",
+          slug: "post8"
+        }),
+        Blog.create({
           title: "Getting Started with Ember-CLI",
           description: "Getting Started with Ember-CLI",
           date: "30 March 2016",
