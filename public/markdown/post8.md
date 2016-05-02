@@ -1,6 +1,6 @@
 <h1>Responsive Web Design</h1>
   <p>As I am tinkering behind the scenes with my google chrome extension I needed to create a simple little interface for the potential user to interact with. While its great practice right now to start projects from scratch and write HTML and CSS by hand I also wanted something that would be easy to upkeep and change. I decided to lean on an awesome little thing called
-  <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>. This is a popular HTML, CSS and JavaScript framework for creating responsive websites and projects. It's possible that bootstrap might be a little overkill for my little project but they have conventions and set styling guides which makes it easy for anyone to jump in and start making changes that are easy to understand. </p>
+  <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>. This is a popular HTML, CSS and JavaScript framework for creating responsive websites and projects. It's possible that bootstrap might be a little overkill for my project but they have conventions and set styling guides which makes it easy for anyone to jump in and start making changes that are easy to understand. </p>
 
  <h2>So what is responsive web design?</h2>
 
