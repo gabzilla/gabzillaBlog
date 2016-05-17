@@ -14,6 +14,42 @@ export default Ember.Route.extend({
     model() {
       return [
         Blog.create({
+          title: "Interview Q & A",
+          description: "My responses to my mock interview",
+          date: "17 May 2016",
+          slug: "post14"
+        }),
+        Blog.create({
+          title: "Resources",
+          description: "A list of all my favorite resources",
+          date: "16 May 2016",
+          slug: "post13"
+        }),
+        Blog.create({
+          title: "Internship 2016",
+          description: "An overview of my internship in 2016",
+          date: "12 May 2016",
+          slug: "InternshipAcademy2016"
+        }),
+        Blog.create({
+          title: "Problem Solving",
+          description: "My problem solving techniques for noobs",
+          date: "05 May 2016",
+          slug: "post11"
+        }),
+        Blog.create({
+          title: "Mock Interview",
+          description: "My  mock interview sitdown with a real                  life developer",
+          date: "26 April 2016",
+          slug: "post10"
+        }),
+        Blog.create({
+          title: "EmberConf 2016",
+          description: "My first Ember comference",
+          date: "19 April 2016",
+          slug: "EmberConf2016"
+        }),
+        Blog.create({
           title: "Responsive Web Design (RWD)",
           description: "A brief overview of responsive web design",
           date: "26 April 2016",
