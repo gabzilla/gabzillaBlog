@@ -13,12 +13,7 @@ export default Ember.Route.extend({
 
     model() {
       return [
-        Blog.create({
-          title: "Interview Q & A",
-          description: "My responses to my mock interview",
-          date: "17 May 2016",
-          slug: "post14"
-        }),
+
         Blog.create({
           title: "Resources",
           description: "A list of all my favorite resources",
@@ -26,10 +21,34 @@ export default Ember.Route.extend({
           slug: "post13"
         }),
         Blog.create({
+          title: "WonderWomen Tech 2016",
+          description: "My exeprience at WonderWomen Tech",
+          date: "16 July 2016",
+          slug: "post17"
+        }),
+        Blog.create({
+          title: "Slackbot",
+          description: "Building a Slackbot with Node.js",
+          date: "13 July 2016",
+          slug: "post16"
+        }),
+        Blog.create({
+          title: "DockerCon2016",
+          description: "An overview of DockerCon 2016",
+          date: "20 June 2016",
+          slug: "dockerCon2016"
+        }),
+        Blog.create({
           title: "Internship 2016",
           description: "An overview of my internship in 2016",
           date: "12 May 2016",
           slug: "InternshipAcademy2016"
+        }),
+        Blog.create({
+          title: "Interview Q & A",
+          description: "My responses to my mock interview",
+          date: "17 May 2016",
+          slug: "post14"
         }),
         Blog.create({
           title: "Problem Solving",

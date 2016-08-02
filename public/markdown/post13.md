@@ -50,7 +50,8 @@
     <li><a href="http://howtocenterincss.com/" target="_blank">How to Center in CSS</a></li>
     <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
     <li><a href="http://javier.xyz/visual-center/" target="_blank">Visual tool to Center Images</a></li>
-    <a href="http://www.javatpoint.com/java-oops-concepts" target="_blank">Java OOP Concepts</a>
+    <li><a href="http://www.javatpoint.com/java-oops-concepts" target="_blank">Java OOP Concepts</a></li>
+    <li><a href="https://regex101.com/" target="_blank">Regex 101<li>
 </ol>
 
 <h2>WebCasts</h2>
@@ -62,6 +63,7 @@
     <li><a href="https://www.emberscreencasts.com/" target="_blank">EmberScreenCasts</a></li>
     <li><a href="http://www.embercasts.com/" target="_blank">EmberCasts</a></li>
     <li><a href="http://railscasts.com/" target="_blank">RailsCast</a></li>
+    <li><a href="http://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html" target="_blank">Event Loop Explained</a> </li>
 </ul>
 <h2>Podcasts</h2>
 <ul>
@@ -75,7 +77,7 @@
     <li><a href="https://devchat.tv/freelancers">The Freelancer's Show</a></li>
     <li><a href="https://frontsidethepodcast.simplecast.fm/">Frontside the Podcast</a></li>
     <li><a href="https://devchat.tv/ruby-rogues">The Ruby Rouges</a></li>
-    
+
 </ul>
 
 
@@ -124,6 +126,3 @@
 <li><a href="https://www.setmine.com/sets">SetMine</a></li>
 <li><a href="https://itunes.apple.com/us/podcast/trancefonic-radio/id991483811?mt=2">TranceFonic</a></li>
 </ul>
-
-
-
