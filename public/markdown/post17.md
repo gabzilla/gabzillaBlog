@@ -1,4 +1,4 @@
-#WonderWomen Tech 2016
+<!-- #WonderWomen Tech 2016
 
  > Huge amount of young people!
 
@@ -34,3 +34,7 @@ of life of these underrepresented racial groups
 
 
 Creating a network to encourage and empower women and under represented communities to attend conferences and exchange idea
+
+<p> cannabis panel: smart well-spoken women changing an up and coming industry
+
+<p>NASA PANEL:  </p> -->

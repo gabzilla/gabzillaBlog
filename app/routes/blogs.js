@@ -21,22 +21,16 @@ export default Ember.Route.extend({
           slug: "post13"
         }),
         Blog.create({
-          title: "WonderWomen Tech 2016",
-          description: "My exeprience at WonderWomen Tech",
-          date: "16 July 2016",
-          slug: "post17"
+          title: "Weekly Tidbits",
+          description: "A collection of small things I've learned this week",
+          date: "15 September 2016",
+          slug: "post18"
         }),
         Blog.create({
           title: "Slackbot",
           description: "Building a Slackbot with Node.js",
           date: "13 July 2016",
           slug: "post16"
-        }),
-        Blog.create({
-          title: "DockerCon2016",
-          description: "An overview of DockerCon 2016",
-          date: "20 June 2016",
-          slug: "dockerCon2016"
         }),
         Blog.create({
           title: "Internship 2016",
