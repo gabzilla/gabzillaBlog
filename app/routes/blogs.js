@@ -21,9 +21,9 @@ export default Ember.Route.extend({
           slug: "post13"
         }),
         Blog.create({
-          title: "Weekly Tidbits",
-          description: "A collection of small things I've learned this week",
-          date: "15 September 2016",
+          title: "Asking the right questions",
+          description: "A beginners guide to asking question",
+          date: "6 October 2016",
           slug: "post18"
         }),
         Blog.create({
