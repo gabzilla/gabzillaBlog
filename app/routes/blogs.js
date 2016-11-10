@@ -21,9 +21,9 @@ export default Ember.Route.extend({
           slug: "post13"
         }),
         Blog.create({
-          title: "Asking the right questions",
-          description: "A beginners guide to asking question",
-          date: "6 October 2016",
+          title: "Building a Go application with Docker-Compose",
+          description: "Go with Docker-Compose",
+          date: "6 November 2016",
           slug: "post18"
         }),
         Blog.create({
